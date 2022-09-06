@@ -10,14 +10,16 @@ owl.owlCarousel({
   // 3 слайда за замовчуванням
   items: 3,
   responsive: {
-    0: {},
-    480: {},
+    850: {
+      // items: 2,
+    },
 
     1000: {
-      margin: 20,
+      // margin: 20,
+      // items: 3,
     },
     1200: {
-      margin: 30,
+      // margin: 30,
     },
   },
 });

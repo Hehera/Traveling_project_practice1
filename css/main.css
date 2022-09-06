@@ -309,7 +309,7 @@ body {
 }
 
 .destinations__slider {
-  width: 1110px;
+  width: 600px;
   /* щоб не зменшувався,а залишався в ширині 1110 бо це важливо коли ми будемо робити адаптив  */
   flex-shrink: 0;
 }
@@ -344,16 +344,17 @@ body {
   position: relative;
   height: 456px;
   transition: 0.2s ease-in;
+  border-radius: 50%;
 }
+/* .destinations__slider {
+ width: 600px;
 
-.slider__item {
+} */
+.slider .slider__item {
   margin-top: 27px;
-
-  width: 335px;
-  height: 402px;
-  object-fit: cover;
-  border-radius: 35px;
-  transition: 0.2s ease-in;
+width: 335px;
+height: 402px;
+border-radius: 60px;
 }
 
 .slider .center .slider__item {
@@ -829,6 +830,8 @@ body {
 
 
 @media (max-width: 1000px) {
+
+
   .nav__list {
     display: none;
   }

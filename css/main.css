@@ -398,7 +398,7 @@ transform: translateY(-65%);
 }
 
 .slider__btn--next {
-left: 1000px;
+left: 998px;
   padding-right: 22px;
   justify-content: flex-end;
 }

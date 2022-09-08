@@ -23,7 +23,6 @@ owl.owlCarousel({
     },
   },
 });
-
 $(".slider__btn--prev").click(function () {
   owl.trigger("prev.owl.carousel");
 });

@@ -274,6 +274,7 @@ body {
 .destinations__row {
   display: flex;
   column-gap: 50px;
+ 
 }
 .destinations__content {
   position: relative;
@@ -377,11 +378,12 @@ transform: translateY(-65%);
   border-radius: 50%;
   display: flex;
   align-items: center;
-
+  transition: 0.2s ease;
+  color:#0f1f1c;
   background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%),
     #8b8b8b;
-    transition: color 0.2s ease-in;
 }
+
 .slider__item {
   margin-top: 27px;
   width: 335px;
